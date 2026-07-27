@@ -1,0 +1,10 @@
+target/
+test-output/
+*.log
+.idea/
+*.iml
+.vscode/
+.DS_Store
+
+# Contains live session cookies - never commit this
+src/test/resources/session-cookies.dat

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Routeye Automation Suite" parallel="methods" thread-count="2">
+
+    <listeners>
+        <listener class-name="com.routeye.framework.listeners.TestListener"/>
+    </listeners>
+
+    <test name="Smoke Tests">
+        <classes>
+            <class name="com.routeye.tests.HomePageTest"/>
+        </classes>
+    </test>
+
+    <test name="Trip Creation Flow">
+        <classes>
+            <class name="com.routeye.tests.TripCreationTest"/>
+        </classes>
+    </test>
+
+</suite>
