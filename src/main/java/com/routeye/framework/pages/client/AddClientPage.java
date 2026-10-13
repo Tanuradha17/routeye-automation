@@ -78,7 +78,7 @@ public class AddClientPage extends BasePage {
      * fields pass validation - click(By) already waits for clickability,
      * so this naturally waits for that too.
      */
-    //public void clickSave() {
+    public void clickSave() {
         click(saveButton);
     }
 }
